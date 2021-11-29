@@ -1,0 +1,25 @@
+{
+  "name": "slack-bolt",
+  "version": "1.0.0",
+  "description": "A simple slackbot built with bolt.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharioki/Slack-bolt-app.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "bolt",
+    "node"
+  ],
+  "author": "kharioki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kharioki/Slack-bolt-app/issues"
+  },
+  "homepage": "https://github.com/kharioki/Slack-bolt-app#readme"
+}
