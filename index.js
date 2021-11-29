@@ -24,4 +24,13 @@ app.command('/square', async ({ command, ack, say }) => {
   }
 });
 
+app.message('Wassup', async ({ message, say }) => {
+  try {
+    await say(`Hello <@${message.user}>! Welcome to Safari Buddies!`);
+  } catch (error) {
+    console.log(error);
+    console.error(error);
+  }
+});
+
 app.start(process.env.PORT || 3000);
